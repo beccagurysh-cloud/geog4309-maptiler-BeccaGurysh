@@ -14,11 +14,11 @@
 <body> 
   <div id="map"></div> 
   <script> 
-    maptilersdk.config.apiKey = '7gtxyT27LkyYUFkQWsK5'; 
+    maptilersdk.config.apiKey = 7gtxyT27LkyYUFkQWsK5; 
   
     const map = new maptilersdk.Map({ 
       container: 'map', 
-      style: '01a18390-4516-7ab1-9279-ddc1f3363f98', 
+      style: 01a18390-4516-7ab1-9279-ddc1f3363f98, 
       center: [-72.3373, 18.5944], // Port-au-Prince — already set, no need to change 
       zoom: 12 
     }); 
